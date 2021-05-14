@@ -43,7 +43,7 @@
     "codecov": "3.0.1",
     "esdoc-accessor-plugin": "latest",
     "esdoc-external-ecmascript-plugin": "latest",
-    "esdoc-importpath-plugin": "^1.0.1",
+    "esdoc-importpath-plugin": "latest",
     "esdoc-standard-plugin": "latest",
     "esdoc-undocumented-identifier-plugin": "latest",
     "eslint": "4.19.1",
