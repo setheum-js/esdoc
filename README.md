@@ -1,6 +1,5 @@
 <!--![Owner Status](https://img.shields.io/badge/owner-busy-red.svg)-->
-[![Build Status](https://travis-ci.org/esdocs/esdocs.svg?branch=master)](https://travis-ci.org/esdocs/esdocs)
-[![Coverage Status](https://codecov.io/gh/esdocs/esdocs/branch/master/graph/badge.svg)](https://codecov.io/gh/esdocs/esdocs)
+[![Build Status](https://travis-ci.org/esdocs/esdocs.svg?branch=master)](https://travis-ci.org/JBA-Khalifa/esdocs)
 [![Document](https://doc.esdocs.org/github.com/esdocs/esdocs/badge.svg?t=0)](https://doc.esdocs.org/github.com/esdocs/esdocs)
 
 # esdocs
