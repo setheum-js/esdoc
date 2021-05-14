@@ -43,6 +43,8 @@ open ./docs/index.html
 # License
 MIT
 
-# Author
-[Ryo Maruyama@h13i32maru](https://twitter.com/h13i32maru)
+## Authors
+
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
+[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
 
