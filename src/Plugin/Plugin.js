@@ -62,8 +62,8 @@ class Plugin {
 
   /**
    * handle config.
-   * @param {ESDocConfig} config - original esdoc config.
-   * @returns {ESDocConfig} handled config.
+   * @param {esdocsConfig} config - original esdocs config.
+   * @returns {esdocsConfig} handled config.
    */
   onHandleConfig(config) {
     const ev = new PluginEvent({config});

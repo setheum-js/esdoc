@@ -39,7 +39,7 @@ module.exports = {
     'no-unsafe-finally': ['error'],
     'no-unsafe-negation': ['error'],
     'use-isnan': ['error'],
-    'valid-jsdoc': ['off'], // because using ESDoc
+    'valid-jsdoc': ['off'], // because using esdocs
     'valid-typeof': ['error'],
 
     /* Best Practices */

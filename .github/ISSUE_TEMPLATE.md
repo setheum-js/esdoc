@@ -1,10 +1,10 @@
 Make sure these boxes are checked before submitting your issue - thank you!
 (If your issue is neither a both bug nor a request, please write in a free style)
-- [ ] https://esdoc.org/manual/feature.html
-- [ ] https://esdoc.org/manual/config.html
-- [ ] https://esdoc.org/manual/tags.html
-- [ ] https://esdoc.org/manual/api.html
-- [ ] https://esdoc.org/manual/faq.html
+- [ ] https://esdocs.org/manual/feature.html
+- [ ] https://esdocs.org/manual/config.html
+- [ ] https://esdocs.org/manual/tags.html
+- [ ] https://esdocs.org/manual/api.html
+- [ ] https://esdocs.org/manual/faq.html
 
 # Short summary of your issue
 // write into here
@@ -41,4 +41,4 @@ Make sure these boxes are checked before submitting your issue - thank you!
 # Your environment
 - OS type and version: ?
 - Node.js version: ?
-- ESDoc version: ?
+- esdocs version: ?

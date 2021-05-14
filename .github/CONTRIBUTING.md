@@ -2,8 +2,8 @@
 
 ## Setup
 ```
-git clone git@github.com:esdoc/esdoc.git
-cd esdoc
+git clone git@github.com:esdocs/esdocs.git
+cd esdocs
 npm install
 ```
 
@@ -15,14 +15,14 @@ npm run test
 
 You can see output documentation after runt tests.
 ```
-# see http://localhost:8080/test/fixture/dest/esdoc
+# see http://localhost:8080/test/fixture/dest/esdocs
 npm run start
 ```
 
 ## Install From Head
-Install ESDoc from head revision.
+Install esdocs from head revision.
 
 ```
 npm install -g ./
-esdoc -h
+esdocs -h
 ```

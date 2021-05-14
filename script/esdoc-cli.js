@@ -2,8 +2,8 @@
 const path = require('path');
 const sh = require('./sh');
 
-const esdoc = path.resolve(__dirname, '..', 'src', 'ESDocCLI.js');
+const esdocs = path.resolve(__dirname, '..', 'src', 'esdocsCLI.js');
 const babel = path.resolve(__dirname, '..', 'node_modules', '.bin', 'babel-node');
 const arg = [].concat(process.argv).splice(2);
-const cmd = [babel, esdoc].concat(arg).join(' ');
+const cmd = [babel, esdocs].concat(arg).join(' ');
 sh.exec(cmd);

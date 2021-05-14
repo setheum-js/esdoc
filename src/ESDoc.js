@@ -13,15 +13,15 @@ import Plugin from './Plugin/Plugin.js';
  * API Documentation Generator.
  *
  * @example
- * let config = {source: './src', destination: './esdoc'};
- * ESDoc.generate(config, (results, config)=>{
+ * let config = {source: './src', destination: './esdocs'};
+ * esdocs.generate(config, (results, config)=>{
  *   console.log(results);
  * });
  */
-export default class ESDoc {
+export default class esdocs {
   /**
    * Generate documentation.
-   * @param {ESDocConfig} config - config for generation.
+   * @param {esdocsConfig} config - config for generation.
    */
   static generate(config) {
     assert(config.source);
@@ -114,33 +114,33 @@ export default class ESDoc {
   }
 
   /**
-   * check ESDoc config. and if it is old, exit with warning message.
-   * @param {ESDocConfig} config - check config
+   * check esdocs config. and if it is old, exit with warning message.
+   * @param {esdocsConfig} config - check config
    * @private
    */
   static _checkOldConfig(config) {
     let exit = false;
 
     const keys = [
-      ['access', 'esdoc-standard-plugin'],
-      ['autoPrivate', 'esdoc-standard-plugin'],
-      ['unexportedIdentifier', 'esdoc-standard-plugin'],
-      ['undocumentIdentifier', 'esdoc-standard-plugin'],
-      ['builtinExternal', 'esdoc-standard-plugin'],
-      ['coverage', 'esdoc-standard-plugin'],
-      ['test', 'esdoc-standard-plugin'],
-      ['title', 'esdoc-standard-plugin'],
-      ['manual', 'esdoc-standard-plugin'],
-      ['lint', 'esdoc-standard-plugin'],
-      ['includeSource', 'esdoc-exclude-source-plugin'],
-      ['styles', 'esdoc-inject-style-plugin'],
-      ['scripts', 'esdoc-inject-script-plugin'],
-      ['experimentalProposal', 'esdoc-ecmascript-proposal-plugin']
+      ['access', 'esdocs-standard-plugin'],
+      ['autoPrivate', 'esdocs-standard-plugin'],
+      ['unexportedIdentifier', 'esdocs-standard-plugin'],
+      ['undocumentIdentifier', 'esdocs-standard-plugin'],
+      ['builtinExternal', 'esdocs-standard-plugin'],
+      ['coverage', 'esdocs-standard-plugin'],
+      ['test', 'esdocs-standard-plugin'],
+      ['title', 'esdocs-standard-plugin'],
+      ['manual', 'esdocs-standard-plugin'],
+      ['lint', 'esdocs-standard-plugin'],
+      ['includeSource', 'esdocs-exclude-source-plugin'],
+      ['styles', 'esdocs-inject-style-plugin'],
+      ['scripts', 'esdocs-inject-script-plugin'],
+      ['experimentalProposal', 'esdocs-ecmascript-proposal-plugin']
     ];
 
     for (const [key, plugin] of keys) {
       if (key in config) {
-        console.log(`[31merror: config.${key} is invalid. Please use ${plugin}. how to migration: https://esdoc.org/manual/migration.html[0m`);
+        console.log(`[31merror: config.${key} is invalid. Please use ${plugin}. how to migration: https://esdocs.org/manual/migration.html[0m`);
         exit = true;
       }
     }
@@ -150,7 +150,7 @@ export default class ESDoc {
 
   /**
    * set default config to specified config.
-   * @param {ESDocConfig} config - specified config.
+   * @param {esdocsConfig} config - specified config.
    * @private
    */
   static _setDefaultConfig(config) {
@@ -224,7 +224,7 @@ export default class ESDoc {
 
   /**
    * generate index doc
-   * @param {ESDocConfig} config
+   * @param {esdocsConfig} config
    * @returns {Tag}
    * @private
    */
@@ -251,7 +251,7 @@ export default class ESDoc {
 
   /**
    * generate package doc
-   * @param {ESDocConfig} config
+   * @param {esdocsConfig} config
    * @returns {Tag}
    * @private
    */
@@ -313,7 +313,7 @@ export default class ESDoc {
 
   /**
    * publish content
-   * @param {ESDocConfig} config
+   * @param {esdocsConfig} config
    * @private
    */
   static _publish(config) {
