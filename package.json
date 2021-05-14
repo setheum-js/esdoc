@@ -23,12 +23,12 @@
     "lint": "node ./script/eslint.js"
   },
   "dependencies": {
+    "babel-generator": "6.26.1",
+    "babel-traverse": "6.26.0",
+    "babylon": "6.18.0",
     "cheerio": "1.0.0-rc.2",
     "color-logger": "0.0.6",
     "escape-html": "1.0.3",
-    "babylon": "6.18.0",
-    "babel-generator": "6.26.1",
-    "babel-traverse": "6.26.0",
     "fs-extra": "5.0.0",
     "ice-cap": "0.0.4",
     "marked": "2.0.3",
@@ -47,7 +47,7 @@
     "esdoc-standard-plugin": "latest",
     "esdoc-undocumented-identifier-plugin": "latest",
     "eslint": "4.19.1",
-    "mocha": "8.4.0",
+    "mocha": "^8.4.0",
     "nyc": "15.1.0"
   },
   "keywords": [
