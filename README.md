@@ -1,14 +1,14 @@
 <!--![Owner Status](https://img.shields.io/badge/owner-busy-red.svg)-->
-[![Build Status](https://travis-ci.org/esdoc/esdoc.svg?branch=master)](https://travis-ci.org/esdoc/esdoc)
-[![Coverage Status](https://codecov.io/gh/esdoc/esdoc/branch/master/graph/badge.svg)](https://codecov.io/gh/esdoc/esdoc)
-[![Document](https://doc.esdoc.org/github.com/esdoc/esdoc/badge.svg?t=0)](https://doc.esdoc.org/github.com/esdoc/esdoc)
+[![Build Status](https://travis-ci.org/esdocs/esdocs.svg?branch=master)](https://travis-ci.org/esdocs/esdocs)
+[![Coverage Status](https://codecov.io/gh/esdocs/esdocs/branch/master/graph/badge.svg)](https://codecov.io/gh/esdocs/esdocs)
+[![Document](https://doc.esdocs.org/github.com/esdocs/esdocs/badge.svg?t=0)](https://doc.esdocs.org/github.com/esdocs/esdocs)
 
-# ESDoc
+# esdocs
 
-ESDoc is a documentation generator for JavaScript.<br/>
-Please <a href="https://try.esdoc.org">try it out</a>!
+esdocs is a documentation generator for JavaScript.<br/>
+Please <a href="https://try.esdocs.org">try it out</a>!
 
-<img class="screen-shot" src="https://raw.githubusercontent.com/esdoc/esdoc/master/manual/asset/image/top.png" width="500px" style="max-width: 500px; border: 1px solid rgba(0,0,0,0.1); box-shadow: 1px 1px 1px rgba(0,0,0,0.5);">
+<img class="screen-shot" src="https://raw.githubusercontent.com/esdocs/esdocs/master/manual/asset/image/top.png" width="500px" style="max-width: 500px; border: 1px solid rgba(0,0,0,0.1); box-shadow: 1px 1px 1px rgba(0,0,0,0.5);">
 
 # Features
 - Generates good documentation.
@@ -16,39 +16,39 @@ Please <a href="https://try.esdoc.org">try it out</a>!
 - Integrate test codes into documentation.
 - Integrate manual into documentation.
 - Parse ECMAScript proposals.
-- [ESDoc Hosting Service](https://doc.esdoc.org)
+- [esdocs Hosting Service](https://doc.esdocs.org)
 
 # Users
-- [ESDoc](https://doc.esdoc.org/github.com/esdoc/esdoc/) (self-hosting &#x1F604;)
+- [esdocs](https://doc.esdocs.org/github.com/esdocs/esdocs/) (self-hosting &#x1F604;)
 - [RxJS](http://reactivex.io/rxjs/)
 - [Sketch API](http://developer.sketchapp.com/reference/api/)
 
-And [more](https://github.com/search?o=desc&q=esdoc+filename%3Apackage.json+-user%3Ah13i32maru+-user%3Aesdoc+-user%3Aes-doc&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93).
+And [more](https://github.com/search?o=desc&q=esdocs+filename%3Apackage.json+-user%3Ah13i32maru+-user%3Aesdocs+-user%3Aes-doc&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93).
 
 # Quick Start
 ```sh
 # Move to a your project directory.
 cd your-project/
 
-# Install ESDoc and standard plugin.
-npm install --save-dev esdoc esdoc-standard-plugin
+# Install esdocs and standard plugin.
+npm install --save-dev esdocs esdocs-standard-plugin
 
 # Create a configuration file.
 echo '{
   "source": "./src",
   "destination": "./docs",
-  "plugins": [{"name": "esdoc-standard-plugin"}]
-}' > .esdoc.json
+  "plugins": [{"name": "esdocs-standard-plugin"}]
+}' > .esdocs.json
 
-# Run ESDoc.
-./node_modules/.bin/esdoc
+# Run esdocs.
+./node_modules/.bin/esdocs
 
 # View a documentation
 open ./docs/index.html
 ```
 
 # Document
-please visit [esdoc.org](https://esdoc.org) to see more documentation.
+please visit [esdocs.org](https://esdocs.org) to see more documentation.
 
 # License
 MIT

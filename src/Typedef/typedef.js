@@ -1,6 +1,6 @@
 /**
- * ESDoc config object.
- * @typedef {Object} ESDocConfig
+ * esdocs config object.
+ * @typedef {Object} esdocsConfig
  * @property {!string} source - directory path of javascript source code.
  * @property {!string} destination - directory path of output.
  * @property {string} [title]
@@ -43,7 +43,7 @@
  * @property {boolean} experimentalProposal.decorators
  * @property {boolean} experimentalProposal.exportExtensions
  * @property {boolean} experimentalProposal.dynamicImport
- * @see https://esdoc.org/config.html
+ * @see https://esdocs.org/config.html
  */
 
 /**
@@ -73,7 +73,7 @@
  * @property {Object[]} [leadingComments]
  * @property {Object[]} [trailingComments]
  * @property {Object[]} [body]
- * @property {ASTNode} [parent] - this is customize by ESDoc
+ * @property {ASTNode} [parent] - this is customize by esdocs
  */
 
 /**
@@ -100,8 +100,8 @@
  */
 
 /**
- * ESDocCLI uses argv
- * @typedef {Object} ESDocCLIArgv
+ * esdocsCLI uses argv
+ * @typedef {Object} esdocsCLIArgv
  * @property {boolean} [h] - for help
  * @property {boolean} [help] - for help
  * @property {boolean} [v] - for version

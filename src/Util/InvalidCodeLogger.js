@@ -1,7 +1,7 @@
 import fs from 'fs-extra';
 
 /**
- * logger for invalid code which can not be parsed with ESDoc.
+ * logger for invalid code which can not be parsed with esdocs.
  */
 class InvalidCodeLogger {
   constructor() {
@@ -66,7 +66,7 @@ class InvalidCodeLogger {
       targetLines.push(`${i + 1}| ${lines[i]}`);
     }
 
-    console.log('[31mwarning: could not parse the following code. if you want to use ECMAScript proposals, see https://esdoc.org/manual/feature.html#ecmascript-proposal[32m');
+    console.log('[31mwarning: could not parse the following code. if you want to use ECMAScript proposals, see https://esdocs.org/manual/feature.html#ecmascript-proposal[32m');
     console.log(filePath);
     console.log(`${targetLines.join('\n')}[0m`);
 

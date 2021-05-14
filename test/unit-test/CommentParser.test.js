@@ -47,7 +47,7 @@ describe('CommentParser:', ()=>{
     assert.deepEqual(tags[4], {tagName: '@tag4', tagValue: 'tag4 value'});
   });
 
-  /** @test {CommentParser.isESDoc} */
+  /** @test {CommentParser.isesdocs} */
   it('return empty with non doc comment.', ()=>{
     const value = `\
 this is not doc comment.

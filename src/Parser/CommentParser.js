@@ -16,7 +16,7 @@ export default class CommentParser {
    * @returns {Tag[]} parsed comment.
    */
   static parse(commentNode) {
-    if (!this.isESDoc(commentNode)) return [];
+    if (!this.isesdocs(commentNode)) return [];
 
     let comment = commentNode.value;
 
@@ -75,7 +75,7 @@ export default class CommentParser {
    * @param {ASTNode} commentNode - comment node.
    * @returns {boolean} if true, this comment node is doc comment.
    */
-  static isESDoc(commentNode) {
+  static isesdocs(commentNode) {
     if (commentNode.type !== 'CommentBlock') return false;
     return commentNode.value.charAt(0) === '*';
   }

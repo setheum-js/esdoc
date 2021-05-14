@@ -329,7 +329,7 @@ export default class DocFactory {
     if (comments && comments.length) {
       const temp = [];
       for (const comment of comments) {
-        if (CommentParser.isESDoc(comment)) temp.push(comment);
+        if (CommentParser.isesdocs(comment)) temp.push(comment);
       }
       comments = temp;
     } else {

@@ -1,16 +1,16 @@
 {
-  "name": "esdoc",
+  "name": "esdocs",
   "version": "1.2.0",
   "description": "Good Documentation Generator For JavaScript",
   "author": {
     "name": "JBA-Khalifa",
     "url": "https://linktr.ee/iamkhalifamba"
   },
-  "homepage": "https://esdoc.org/",
+  "homepage": "https://esdocs.org/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/setheum-js/esdoc"
+    "url": "https://github.com/setheum-js/esdocs"
   },
   "engines": {
     "node": ">= 6.0.0"
@@ -19,7 +19,7 @@
     "build": "node ./script/build.js",
     "test": "node ./script/test.js",
     "test-ci": "node ./script/test-ci.js",
-    "esdoc": "node ./script/esdoc.js",
+    "esdocs": "node ./script/esdocs.js",
     "lint": "node ./script/eslint.js"
   },
   "dependencies": {
@@ -41,11 +41,11 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-register": "6.26.0",
     "codecov": "3.0.1",
-    "esdoc-accessor-plugin": "latest",
-    "esdoc-external-ecmascript-plugin": "latest",
-    "esdoc-importpath-plugin": "latest",
-    "esdoc-standard-plugin": "latest",
-    "esdoc-undocumented-identifier-plugin": "latest",
+    "esdocs-accessor-plugin": "latest",
+    "esdocs-external-ecmascript-plugin": "latest",
+    "esdocs-importpath-plugin": "latest",
+    "esdocs-standard-plugin": "latest",
+    "esdocs-undocumented-identifier-plugin": "latest",
     "eslint": "4.19.1",
     "mocha": "^8.4.0",
     "nyc": "15.1.0"
@@ -73,8 +73,8 @@
     "out/src",
     "README.md"
   ],
-  "main": "out/src/ESDoc.js",
+  "main": "out/src/esdocs.js",
   "bin": {
-    "esdoc": "out/src/ESDocCLI.js"
+    "esdocs": "out/src/esdocsCLI.js"
   }
 }
