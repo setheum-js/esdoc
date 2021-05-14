@@ -53,5 +53,7 @@ please visit [esdocs.org](https://esdocs.org) to see more documentation.
 # License
 MIT
 
-# Author
-[Ryo Maruyama@h13i32maru](https://twitter.com/h13i32maru)
+## Authors
+
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
+[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
